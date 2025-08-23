@@ -8,12 +8,12 @@ import time
 col = ['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population', 'AveOccup']
 st.title('California Housing Price Prediction')
 st.header('Model of housing prices to predict median house values in California')
-st.image('https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg')
+st.image('https://media.istockphoto.com/id/174631847/photo/beautiful-california-house-with-stone-walls.jpg?s=612x612&w=0&k=20&c=uS8hCmpYBMOV8P1dYWGRW1_XxEW6xKTzf-mDKmobWb4=')
 st.subheader('''User Must Enter Given Value to Predict Price:
         ['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population', 'AveOccup']''')
 
 st.sidebar.title('Select House Feature') 
-st.sidebar.image('https://www.providencejournal.com/gcdn/presto/2021/09/23/NPRJ/4ad329ab-09e1-41d0-a1d5-8b003da067c6-RIPRO-091020-NE_CONJURING_-Copy-.jpg?crop=5533,3113,x0,y0&width=3200&height=1801&format=pjpg&auto=webp')
+st.sidebar.image('https://media.istockphoto.com/id/83802508/photo/stairs-leading-to-craftsman-house.jpg?s=612x612&w=0&k=20&c=Ai2VREsZR-l8XPf0Cn5VKputzmv0bSk4CoUUW3DZf1I=')
 temp_df = pd.read_csv('california.csv')
 random.seed(12)
 
@@ -61,6 +61,7 @@ else:
 
 st.markdown('Designed by: **Nitin Kamia**')
     
+
 
 
 
