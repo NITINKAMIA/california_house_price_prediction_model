@@ -50,7 +50,7 @@ if price>0:
     body = f'Predicted Median House Price: ${round(price,2)} Thousand Dollars'
     placeholder.empty()
     place.empty()
-    # st.subheader(body)
+     st.subheader(body)
 
     st.success(body)
 else:
@@ -59,8 +59,9 @@ else:
     st.warning(body)
 
 
-# st.markdown('Designed by: **Nitin Kamia**')
+st.markdown('Designed by: **Nitin Kamia**')
     
+
 
 
 
